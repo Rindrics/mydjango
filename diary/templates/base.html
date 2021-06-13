@@ -1,0 +1,38 @@
+{% load static %}
+
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport", content="width=device-width, initial-scale=1, scale-to-fit=no">
+    <meta name="description", content="">
+    <meta name="author", content="">
+
+    <title>{% block title %}{% endblock %}</title>
+    <!-- Bootstrap core CSS -->
+    <link href="" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="" rel="stylesheet">
+    <link href="" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="" rel="stylesheet">
+
+    <!-- My style -->
+    <link rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <!-- Navigation -->
+      <div class="container">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+        </div>
+      </div>
+    PRIVATE DIARY
+    </div>
+    {% block header%}{% endblock %}
+    hoge
+    {% block contents %}{% endblock %}
+  </body>
+</html>

@@ -1,11 +1,24 @@
-<!DOCTYPE html>
+{% extends 'base.html' %}
 
-<html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <title>Top page</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-  </body>
-</html>
+{% load static %}
+
+{% block title %}From index.html{% endblock %}
+{% block header%}
+<header class="mathhead text-center text-wthite">
+  <h2>Your diary service</h2>
+</header>
+{% endblock %}
+{% block contents %}
+<section>
+  <p>hogefuga from index.html</p>
+</section>
+
+<section>
+  <p>bazbaz from index.html</p>
+</section>
+
+<section>
+  <p>Diary service</p>
+</section>
+
+{% endblock %}
